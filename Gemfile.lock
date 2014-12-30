@@ -65,6 +65,8 @@ GEM
     json (1.8.1)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    masonry-rails (0.2.4)
+      railties
     mime-types (2.4.3)
     minitest (5.5.0)
     multi_json (1.10.1)
@@ -143,6 +145,7 @@ DEPENDENCIES
   haml (~> 4.0.6)
   jbuilder (~> 2.0)
   jquery-rails
+  masonry-rails (~> 0.2.4)
   paperclip (~> 4.2.1)
   rails (= 4.1.8)
   sass-rails (~> 4.0.3)
