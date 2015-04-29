@@ -20,6 +20,8 @@
 
 body {
 	background: #E9E9E9;
+	.container-fluid {
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,12 +30,17 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+	padding: 10px;
 	.navbar-brand {
 		a {
 			color: #BD1E23;
 			font-weight: bold;
+			font-size: 25px;
+			display: inline;
+			width: 60px;
+			padding-right: 10;
 			&:hover {
-				text-decoration: none;
+				text-decoration: black;
 			}
 		}
 	}
@@ -43,8 +50,8 @@ nav {
   margin: 0 auto;
   width: 100%;
   .box {
-	  margin: 10px;
-	  width: 350px;
+	  margin: 30px;
+	  width: 300px;
 	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 	  border-radius: 7px;
 	  text-align: center;
@@ -80,12 +87,12 @@ nav {
 
 #pin_show {
 	.panel-heading {
-		padding: 0;
+		padding: 20px;
 	}
 	.pin_image {
 		img {
 			max-width: 100%;
-			width: 100%;
+			width: 80%;
 			display: block;
 			margin: 0 auto;
 		}
@@ -115,3 +122,4 @@ nav {
 textarea {
 	min-height: 250px;
 } 
+
